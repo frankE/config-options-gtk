@@ -1,0 +1,11 @@
+[package]
+name = "options-window-gtk"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+rand = "0.6.5"
+
+[dependencies.gtk]
+version = "0.5.0"
+features = ["v3_10"]
